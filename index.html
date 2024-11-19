@@ -9,6 +9,12 @@
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <script>
+        tailwind.config = {
+            prefix: 'tw-'
+        }
+    </script>
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -61,34 +67,35 @@
     </nav>
 
     <!-- Hero Section (Tailwind CSS) -->
-    <section class="bg-gradient-to-r from-blue-600 to-blue-400 text-white text-center py-36">
-        <h1 class="text-5xl font-extrabold">Welcome to EchoTech</h1>
-        <p class="mt-4 text-lg font-medium">Innovating the future with cutting-edge technology solutions for your business.</p>
-        <a href="#features" class="mt-8 inline-block bg-white text-blue-600 py-3 px-8 rounded-full text-xl hover:bg-blue-700 hover:text-white transition duration-300">Learn More</a>
+  <!-- Hero Section (Tailwind CSS) -->
+    <section class="tw-bg-gradient-to-r tw-from-blue-600 tw-to-blue-400 tw-text-white tw-text-center tw-py-36">
+        <h1 class="tw-text-5xl tw-font-extrabold">Welcome to EchoTech</h1>
+        <p class="tw-mt-4 tw-text-lg tw-font-medium">Innovating the future with cutting-edge technology solutions for your business.</p>
+        <a href="#features" class="tw-mt-8 tw-inline-block tw-bg-white tw-text-blue-600 tw-py-3 tw-px-8 tw-rounded-full tw-text-xl hover:tw-bg-blue-700 hover:tw-text-white tw-transition tw-duration-300">Learn More</a>
     </section>
 
     <!-- Features Section (Bootstrap + Tailwind) -->
-    <section id="features" class="container py-20">
-        <div class="row text-center">
+    <section id="features" class="container tw-py-20">
+        <div class="row tw-text-center">
             <div class="col-md-4 mb-4">
-                <div class="card p-5 hover-grow shadow-lg bg-white rounded-lg">
+                <div class="tw-p-5 hover-grow tw-shadow-lg tw-bg-white tw-rounded-lg">
                     <i class="bi bi-laptop" style="font-size: 3rem;"></i>
-                    <h5 class="mt-4 text-xl font-semibold">Advanced Technology</h5>
-                    <p class="text-gray-600">Leading-edge solutions for all your tech needs.</p>
+                    <h5 class="tw-mt-4 tw-text-xl tw-font-semibold">Advanced Technology</h5>
+                    <p class="tw-text-gray-600">Leading-edge solutions for all your tech needs.</p>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
-                <div class="card p-5 hover-grow shadow-lg bg-white rounded-lg">
+                <div class="tw-p-5 hover-grow tw-shadow-lg tw-bg-white tw-rounded-lg">
                     <i class="bi bi-cloud" style="font-size: 3rem;"></i>
-                    <h5 class="mt-4 text-xl font-semibold">Cloud Integration</h5>
-                    <p class="text-gray-600">Seamlessly integrate cloud solutions into your operations.</p>
+                    <h5 class="tw-mt-4 tw-text-xl tw-font-semibold">Cloud Integration</h5>
+                    <p class="tw-text-gray-600">Seamlessly integrate cloud solutions into your operations.</p>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
-                <div class="card p-5 hover-grow shadow-lg bg-white rounded-lg">
+                <div class="tw-p-5 hover-grow tw-shadow-lg tw-bg-white tw-rounded-lg">
                     <i class="bi bi-shield-lock" style="font-size: 3rem;"></i>
-                    <h5 class="mt-4 text-xl font-semibold">Data Security</h5>
-                    <p class="text-gray-600">Protect your data with the highest level of encryption.</p>
+                    <h5 class="tw-mt-4 tw-text-xl tw-font-semibold">Data Security</h5>
+                    <p class="tw-text-gray-600">Protect your data with the highest level of encryption.</p>
                 </div>
             </div>
         </div>
